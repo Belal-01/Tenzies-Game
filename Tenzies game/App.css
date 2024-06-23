@@ -2,4 +2,44 @@
   margin: 0;
   padding: 0;
   font-family: Karla, Arial, Helvetica, sans-serif;
+}
+
+.container__black {
+  width: 22.5rem;
+  height: 23.125rem;
+  background-color: rgb(11, 36, 52);
+  margin: auto;
+  margin-top: 6.25rem;
+}
+.container__white {
+  width: 20rem;
+  height: 20rem;
+  background-color: rgb(245, 245, 245);
+  position: relative;
+  top: 25px;
+  left: 20px;
+  border-radius: 0.9375rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.25rem;
+}
+.container__white h1 {
+  margin-top: 1.25rem;
+  font-weight: bold;
+  align-self: center;
+}
+.container__white p {
+  color: rgb(74, 78, 116);
+  font-size: 0.8125rem;
+  width: 14.375rem;
+  align-self: center;
+}
+.container__white button {
+  background-color: rgb(80, 53, 255);
+  color: white;
+  font-size: 1rem;
+  padding: 0.625rem 1.875rem;
+  border: none;
+  border-radius: 0.3125rem;
+  align-self: center;
 }/*# sourceMappingURL=App.css.map */
