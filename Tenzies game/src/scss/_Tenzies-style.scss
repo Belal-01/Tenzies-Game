@@ -35,10 +35,52 @@
       background-color: rgba(80, 53, 255, 1);
       color: white;
       font-size: rem(16);
+      font-weight: bold;
+      letter-spacing: rem(1);
       padding:rem(10) rem(30);
       border:none;
-      border-radius: rem(5);
       align-self: center;
+      transition: background 0.3s;
+      cursor: pointer;
+    }
+    button:hover{
+      background-color: white;
+      color: rgba(80, 53, 255, 1);
+    }
+    button:active{
+      filter:opacity(0.8);
+    }
+    .button-container{
+     display: inline-block;
+     align-self: center;
+     background-color:rgba(80, 53, 255, 1);
+     padding:rem(2);
+     border-radius: rem(4);
+    }
+  }
+  &__numbers{
+    align-self: center;
+    width: rem(270);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: rem(15);
+    row-gap: rem(10);
+
+    &__box{
+      width: rem(25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: rem(10) rem(7);
+      background-color: rgba(255, 255, 255, 1);
+      border-radius: rem(5);
+      box-shadow: rem(1) rem(1) rem(5) rgb(77, 75, 75);
+      cursor: pointer;
+    }
+    &__box:hover{
+      filter: brightness(0.8);
     }
   }
 

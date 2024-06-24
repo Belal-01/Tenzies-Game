@@ -38,8 +38,50 @@
   background-color: rgb(80, 53, 255);
   color: white;
   font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.0625rem;
   padding: 0.625rem 1.875rem;
   border: none;
-  border-radius: 0.3125rem;
   align-self: center;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+.container__white button:hover {
+  background-color: white;
+  color: rgb(80, 53, 255);
+}
+.container__white button:active {
+  filter: opacity(0.8);
+}
+.container__white .button-container {
+  display: inline-block;
+  align-self: center;
+  background-color: rgb(80, 53, 255);
+  padding: 0.125rem;
+  border-radius: 0.25rem;
+}
+.container__numbers {
+  align-self: center;
+  width: 16.875rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 0.9375rem;
+       column-gap: 0.9375rem;
+  row-gap: 0.625rem;
+}
+.container__numbers__box {
+  width: 1.5625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem 0.4375rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.3125rem;
+  box-shadow: 0.0625rem 0.0625rem 0.3125rem rgb(77, 75, 75);
+  cursor: pointer;
+}
+.container__numbers__box:hover {
+  filter: brightness(0.8);
 }/*# sourceMappingURL=App.css.map */
